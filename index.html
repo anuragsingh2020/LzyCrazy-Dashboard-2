@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Dashboard | Lzycrazy</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+<body>
+  <div class="header">
+    <img src="logo.png" class="logo-img">
+    <div class="user-info">Anurag Singh ID: <span id="userId">lc001</span></div>
+ 
+  <nav class="nav-icon"> 
+      <li><i class="fa-solid fa-phone-volume"></i></li>
+      <li><i class="fas fa-video"></i></li>
+      <li> <i class="fas fa-comment-dots"></i></li>
+      <li> <i class="fas fa-bell"></i></i></li>
+      <li><img src="Anurag Singh.jpg" alt="Anurag Singh" class="anurag-logo"></li>
+   </nav>
+    </div>
+  <div class="main">
+    <h1 class="title">Client Onboarding & Real-Time Engagement Analytics System</h1>
+
+    <div class="stats">
+      <div class="card yellow">
+        <p class="label">Total Users</p>
+        <h2 id="totalUsers">Loading...</h2>
+        <Circle class="dot"></Circle>
+      </div>
+      <div class="card green">
+        <p class="label">Realtime Users</p>
+        <h2 id="realtimeUsers">Loading...</h2>
+      </div>
+      <div class="location-select">
+        <select id="countrySelect">
+          <option>Select Country</option>
+          <option>India</option>
+        </select>
+        <select id="stateSelect">
+          <option>Select State</option>
+        </select>
+        <select id="citySelect">
+          <option>Select City</option>
+        </select>
+      </div>
+    </div>
+    <div class="main-Section">
+      <div class="chart">
+        <img src="coin.jpg" alt="coin">
+      </div>
+      <div class="ads">
+        <div class="card small">
+          <p class="live">Live</p>
+          <p>Total User Ads</p>
+          <h2 id="totalUserAds">0</h2>
+        </div>
+        <div class="card small">
+          <p class="live">Live</p>
+          <p>Business Profile</p>
+          <h2 id="businessProfile">0</h2>
+        </div>
+        <div class="card small">
+          <p class="live">Live</p>
+          <p>Banner Ads</p>
+          <h2 id="bannerAds">0</h2>
+        </div>
+        <div class="card small">
+          <p class="live">Live</p>
+          <p>Video Ads</p>
+          <h2 id="videoAds">0</h2>
+        </div>
+        <div class="card small">
+          <p class="live">Live</p>
+          <p>Home Ads</p>
+          <h2 id="homeAds">0</h2>
+        </div>
+        <div class="card logout">
+          <p>ID: <span id="userIdBottom">lc001</span></p>
+          <button onclick="logout()">Sign Out</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

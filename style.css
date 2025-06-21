@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f8;
+}
+
+.header {
+  background: #fff;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: flex;
+  height: 35px;
+}
+ .logo-img {
+  font-weight: bold;
+  font-size: 50px;
+  width: 5rem;
+  height: 2.5rem;
+}
+.user-info {
+  background: #eee;
+  padding: 10px 20px;
+  border-radius: 20px;
+  height: 1px;
+}
+.nav-icon{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    gap: 25px;
+    
+}
+.anurag-logo{
+    width: 30px;
+    height: 25px;
+    border-radius: 2.7rem;
+}
+.title {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #ff7e00, #ff3300);
+  color: white;
+  margin: 0px;
+  height: 40px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  width: 200px;
+  text-align: center;
+}
+
+.card.yellow {
+  border-left: 6px solid #fbc02d;
+}
+
+.card.green {
+  border-left: 6px solid #43a047;
+}
+
+.label {
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 34px;
+  margin: 0;
+}
+
+.location-select {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 25%;
+}
+
+.location-select select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+.main-Section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;;
+}
+.chart {
+  display: flex;
+  justify-content: center;
+  margin: 20px 10px;
+}
+
+.chart img {
+  font-size: 200%;
+  height: 17rem;
+  width: 100%;
+  align-items: center;  
+  
+}
+
+.ads {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+  padding-bottom: 40px;
+  width: 60%;
+  height: 10rem;
+  font-size:50%;
+ 
+}
+
+.card.small {
+  width: 160px;
+  height: 5rem;
+  background: #fff8e1;
+  background-color: rgb(219, 219, 95);
+}
+.card.logout {
+  background: #ffe5e5;
+  width: 160px;
+}
+
+.live {
+  color: green;
+  font-weight: bold;
+}
+
+.card.logout button {
+  background: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+img{
+    display: flex;
+    font-size: 20rem;
+    width: 8rem;
+    height: 6rem;
+
+}
